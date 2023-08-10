@@ -1,0 +1,17 @@
+
+
+Clases finales.
+Cuando una clase es declarada como final, ésta no se puede heredar. Hay dos uso para este tipo de clase:
+
+1. Evitar la herencia.
+
+2. Crear un clase inmutable como la clase predefinida String.
+
+final class Padre{
+
+}
+
+class Hijo extends Padre{
+//ERROR
+}
+
